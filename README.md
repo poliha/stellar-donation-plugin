@@ -16,7 +16,7 @@ Remember to replace "YOUR-STELLAR-ACCOUNT-ID" with your actual account ID.
 
 #Demo
 See it live in action here
-[on the Saza Wallet Website](https://www.saza.com.ng, "Saza Wallet")
+[on the Saza Wallet Website](https://www.saza.com.ng "Saza Wallet")
 
 #How It Works
 Note that this plugin works with the donate endpoint of the Saza Wallet API.
