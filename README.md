@@ -10,6 +10,7 @@ Download the "stellar.donate.js" file and add it to your web page
 
 #Usage
 Place the following code snippet in any part of your page
+
 `<div id="stellar-donate" data-dest="YOUR-STELLAR-ACCOUNT-ID"></div>`
 
 Remember to replace "YOUR-STELLAR-ACCOUNT-ID" with your actual account ID.
