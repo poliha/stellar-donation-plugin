@@ -13,8 +13,6 @@ jQuery(document).ready( function($){
   var statusMsg = "Processing Payment";
 	var stellarDonate = $('#stellar-donate');
 	var destAcct = stellarDonate.data("dest");
-  console.log(destAcct);
-
 
 	var formTemplate =`
   <div style="padding: 10px;">
@@ -40,7 +38,7 @@ jQuery(document).ready( function($){
   </div>
   `;
 
-	stellarDonate.html(formTemplate);
+  stellarDonate.html(formTemplate);
   stellarDonate.append('<small>Powered by <a href="https://saza.com.ng" target="_blank">SAZA</a></small>');
 
   // Detect when form is submitted and process payment
@@ -55,13 +53,13 @@ jQuery(document).ready( function($){
     var response = "";
     
     posting.done(function( data ) {
-      console.log("done", data);
+      //console.log("done", data);
       $('#sdmsg').html('<h4 class="text-success">'+data.content.message+'</h4>');
     
     });
 
     posting.fail(function( data ) {
-      console.log("fail", JSON.parse(data.responseText));
+      //console.log("fail", JSON.parse(data.responseText));
       response = JSON.parse(data.responseText);
       $('#sdfAmount').val("");
       $('#sdfSeed').val("");
