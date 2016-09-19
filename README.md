@@ -31,7 +31,8 @@ These values are sent to Saza for processing and if all values are apporpriate t
 **Note:** The seed is not stored by Plugin or Saza. This is just used for verification and signing of the transaction by the source account
 
 #Recommendation
-It is **STRONGLY RECOMMENDED** that this plugin is used over https connections only.
+- It is **STRONGLY RECOMMENDED** that this plugin is used over https connections only.
+- This plugin uses [twitter bootstrap](https://www.getbootstrap.com "Twitter Bootstrap") for styling. You should add this to your project or use alternative styles.
 
 
 
